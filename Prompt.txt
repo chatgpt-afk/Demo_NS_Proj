@@ -1,0 +1,42 @@
+Create a complete Power BI dashboard design specification based on my Excel file `BIL.xlsx`.
+
+Goal: Build a professional Sales Order & Contract Analytics dashboard with a modern corporate blue theme.
+
+Theme:
+- Dark navy sidebar: #0B3558
+- Primary blue: #0D5EB8
+- Light blue: #4AA3F0
+- Background: #F3F7FB
+- White KPI cards with subtle borders/shadows
+- Use green, orange, purple, and red only for KPI/status highlights
+- Font: Segoe UI or Aptos
+
+Pages:
+1. Executive Overview
+2. Sales & Customers
+3. Contract & Renewal
+4. Fulfillment & Delivery
+5. Vendor & Product
+6. Detailed Orders
+
+For each page, provide:
+- Exact page layout
+- KPI cards
+- Recommended charts
+- Fields used in each visual
+- Slicers
+- Required DAX measures
+- Navigation buttons
+- Recommended colors and formatting
+- Power BI data model recommendations
+
+Important:
+Analyze the Excel structure first and identify the correct data grain before calculating totals because Sales Order amount fields may repeat across multiple ROWKEY records.
+
+Also generate:
+- A Power BI theme JSON file
+- A DAX measures file
+- A detailed implementation guide
+- A dashboard wireframe/mockup structure
+
+Keep the overall design consistent across all pages and make it suitable for management reporting.
